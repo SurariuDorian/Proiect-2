@@ -1,0 +1,19 @@
+{
+    "imagini": [{
+            "img": "https://www.jqueryscript.net/images/Universal-Placeholder-Text-Lorem-Ipsum-Generator-getlorem.jpg",
+            "id": 1
+        },
+        {
+            "img": "https://i.ytimg.com/vi/ZYVX0wviSgQ/maxresdefault.jpg",
+            "id": 2
+        },
+        {
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8qzJmWCcG_-o-tyXvT3JGixIOF9fIueqH-Sfgwt7YrQmc0rJj",
+            "id": 3
+        },
+        {
+            "img": "http://ttfonts.net/modules/waterfall.php?font=13174_ELEPHNT.ttf",
+            "id": 4
+        }
+    ]
+}

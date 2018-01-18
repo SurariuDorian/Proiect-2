@@ -1,0 +1,158 @@
+.aside {
+    float: right;
+    margin-left: 25%;
+    margin-right: 1%;
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+body {
+    margin: 0;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.list img {
+    height: 150px;
+}
+
+.list>div {
+    display: flex;
+    align-items: center;
+}
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    background-color: #187ed198;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.sidenav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 5px 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}
+
+#div1 {
+    width: 100%;
+    height: 20%;
+    background-color: #01374bd0);
+    animation-name: example1;
+    animation-duration: 10s;
+}
+
+#div2 {
+    width: 100%;
+    height: 20%;
+    background-color: #01374bd0);
+    animation-name: example2;
+    animation-duration: 10s;
+}
+
+#div3 {
+    width: 100%;
+    height: 20%;
+    background-color: #01374bd0);
+    animation-name: example1;
+    animation-duration: 10s;
+}
+
+#div4 {
+    width: 100%;
+    height: 20%;
+    background-color: #01374bd0);
+    animation-name: example2;
+    animation-duration: 10s;
+}
+
+#div5 {
+    width: 100%;
+    height: 20%;
+    background-color: #01374bd0);
+    animation-name: example1;
+    animation-duration: 10s;
+}
+
+#div6 {
+    width: 100%;
+    height: 20%;
+    background-color: #01374bd0);
+    animation-name: example2;
+    animation-duration: 10s;
+}
+
+#div7 {
+    width: 100%;
+    height: 20%;
+    background-color: #01374bd0);
+    animation-name: example1;
+    animation-duration: 10s;
+}
+
+@keyframes example2 {
+    from {
+        background-color: #0b640ed7;
+    }
+    to {
+        background-color: rgba(41, 23, 201, 0.89);
+    }
+}
+
+@keyframes example1 {
+    from {
+        background-color: #110b64d7;
+    }
+    to {
+        background-color: rgba(23, 201, 38, 0.89);
+    }
+}
